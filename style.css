@@ -28,10 +28,12 @@ h2{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #00bf63;
+  background-color: #3767a7;
   width: 100%;
   padding: 15px;
   border-bottom: 15px solid #ffffff;
+  z-index: 100;
+  position: fixed;
 }
 
 .content-header {
@@ -42,10 +44,9 @@ h2{
 }
 
 #logo {
-  width: 130px;
+  width: 100px;
   border-radius: 50%;
   object-fit: cover;
-  border: solid 3px #ffffff;
 }
 
 ul {
@@ -58,7 +59,7 @@ ul {
 ul li a {
   text-decoration: none;
   padding: 5px 10px;
-  background-color: #00bf63;
+  background-color: #3767a7;
   font-size: 1.5em;
   /* border-radius: 15px; */
   color: #ffffff;
@@ -70,13 +71,18 @@ ul li a {
 ul li a:hover {
   /* background-color: #36c580; */
   transition: 0.4s;
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid rgb(255, 255, 255);
   border-top: 5px solid white;
   color: #ffffff;
   /* box-shadow: 2px 2px 2px rgba(0,0,0, 1); */
 }
 
 /* serviços */
+
+.section-servicos{
+  border-bottom: #ffffff solid 5px;
+  margin-top: 170px;
+}
 
 .container-servicos {
   display: flex;
@@ -93,7 +99,7 @@ ul li a:hover {
     content: "";
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 191, 99, 0.7);
+    background-color: rgba(55, 103, 167, 0.8);
     margin: 0, 0, 0, 0;
     position: absolute;
     z-index: 1;
@@ -105,6 +111,7 @@ ul li a:hover {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 10px;
   z-index: 2;
 }
 
@@ -113,12 +120,11 @@ ul li a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #00bf63;
+    background-color: #1e59a7;
     margin: 20px;
     padding: 0px 0px 20px 0px;
     width: 250px;
     border-radius: 30px;
-    margin-bottom: 50px;
     border: 1px solid black;
 }
 .cards:hover{
@@ -148,3 +154,27 @@ ul li a:hover {
   border-radius: 30px 30px 0px 0px;
   border-bottom: 1px solid black;
 }
+
+.btn-whatsapp {
+  z-index: 2;
+}
+
+.btn-whatsapp{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  background-color: #3767a7;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  border: #ffffff solid 2px;
+}
+
+.btn-whatsapp:hover{
+  background-color: #ffffff;
+  color: #1e59a7;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+
