@@ -14,19 +14,58 @@
         <div class="content-header">
           <img src="./img/logo.jpeg" alt="logo" id="logo" />
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#section-servicos">Serviços</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#servicos">Serviços</a></li>
             <li><a href="#">Galeria</a></li>
             <li><a href="#">Contato</a></li>
           </ul>
         </div>
       </heder>
 
+      <!-- home -->
+      <section class="container-home" id="home">
+        <h2 class="title">Pinturas Tenorio</h2>
+        <div class="container-content-home">
+          <div class="content-psicologia">
+            <h2>Cores que transformam seu ambiente</h2>
+            <p>
+              A escolha da cor certa vai além da estética, ela define a
+              atmosfera e influencia as emoções de quem vive ou trabalha no
+              espaço. Com profundo conhecimento da teoria das cores, nosso
+              serviço de pintura transforma paredes em verdadeiras aliadas do
+              bem-estar, transmitindo sensações de aconchego, energia,
+              sofisticação ou tranquilidade, de acordo com a sua necessidade.
+              Cada projeto é personalizado para atender às suas expectativas,
+              garantindo harmonia visual, técnica impecável e um acabamento de
+              alta qualidade. Mais do que pintar, criamos ambientes que
+              inspiram!
+            </p>
+          </div>
+          <div class="content-paleta">
+            <div class="content-paleta-down">
+              <div class="content-paleta-left">
+                <img
+                  src="./img/pexels-photo-6474446.webp"
+                  alt="paleta left"
+                  id="paleta-left"
+                />
+              </div>
+              <div class="content-paleta-rigth">
+                <img
+                  src="./img/pexels-piotr-arnoldes-7862031-6057911.jpg"
+                  alt="paleta-rigth"
+                  id="paleta-rigth"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Serviços -->
-      <section class="section-servicos" id="section-servicos">
+      <section class="section-servicos" id="servicos">
         <div class="container-servicos">
-          <h1>Pinturas Tenorio</h1>
-          <h2>Serviços</h2>
+          <h2 class="sub-title">Serviços</h2>
           <div class="content-cards">
             <div class="cards">
               <img
@@ -36,30 +75,100 @@
               />
               <h2>Pintura residencial</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto ipsa quas sit autem dignissimos maxime.
+                Oferecemos um serviço completo de pintura residencial, projetado
+                para transformar sua casa em um ambiente bonito, renovado e
+                acolhedor. Com anos de experiência e uma equipe dedicada,
+                garantimos um acabamento impecável que supera todas as
+                expectativas.
               </p>
             </div>
+
             <div class="cards">
               <img src="./img/cards-loja.jpg" alt="Loja" id="img-card" />
               <h2>Pintura comercial</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto ipsa quas sit autem dignissimos maxime.
+                Oferecemos um serviço completo de pintura comercial, ideal para
+                transformar escritórios, lojas e espaços industriais em
+                ambientes profissionais e convidativos. Com nossa experiência e
+                uma equipe qualificada, garantimos um acabamento impecável que
+                destacará a identidade do seu negócio e proporcionará um
+                ambiente agradável e inspirador para seus clientes e
+                colaboradores.
               </p>
             </div>
+
             <div class="cards">
               <img src="./img/cards-gesso.jpg" alt="Gesso" id="img-card" />
               <h2>Acabamentos em gesso</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto ipsa quas sit autem dignissimos maxime.
+                Oferecemos um serviço completo de acabamentos em gesso,
+                projetado para elevar a estética e a funcionalidade do seu
+                espaço. Com nossa experiência e uma equipe especializada,
+                garantimos um acabamento impecável que agrega valor e
+                sofisticação ao seu ambiente, seja residencial ou comercial. De
+                sancas e molduras detalhadas a divisórias e forros,
+                transformamos cada detalhe em uma verdadeira obra de arte,
+                proporcionando um ambiente elegante e personalizado.
+              </p>
+            </div>
+            <div class="cards">
+              <img
+                src="./img/texturas-grafiatos.jpg"
+                alt="texturas e grafiatos"
+                id="img-card"
+              />
+              <h2>Texturas e grafiatos</h2>
+              <p>
+                Transformamos seu espaço com acabamentos de textura e grafiato
+                que trazem beleza e sofisticação. Nossa equipe especializada
+                aplica técnicas exclusivas para criar superfícies únicas, desde
+                paredes rústicas até padrões detalhados. Combinamos inovação e
+                tradição para oferecer um resultado duradouro e esteticamente
+                agradável, que eleva o visual de qualquer ambiente. Cada projeto
+                é personalizado para refletir seu estilo e personalidade.
               </p>
             </div>
           </div>
           <a class="btn-whatsapp" href="#">Faça ja seu orçamento</a>
         </div>
       </section>
+      <section class="galeria">
+        <h2 class="title-galeria">Galeria de Fotos</h2>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/cards-residencia.jpg" style="width: 100%" />
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/cards-loja.jpg" style="width: 100%" />
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/banner-seviços.jpg" style="width: 100%" />
+            <div class="text">Caption Three</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br />
+
+        <div style="text-align: center; margin-bottom: 15px">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <a class="btn-whatsapp" href="#">Faça ja seu orçamento</a>
+      </section>
+      <footer>
+        <h1>rodapé</h1>
+      </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
